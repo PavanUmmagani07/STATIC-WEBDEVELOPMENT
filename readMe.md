@@ -244,5 +244,5 @@ The CSS background-size property specifies the size of the background image of a
 Value	Description
 cover	Scales the image to the smallest size while maintaining the same aspect ratio (width/height) and covers the entire width and height even if the image is cropped.
 
-Aspect Ratio is the ratio of the width and height (width/height) of an image
+Aspect Ratio is the ratio of the width and Height (width/height) of an image
 
