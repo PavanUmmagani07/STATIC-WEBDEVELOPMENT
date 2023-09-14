@@ -1,0 +1,39 @@
+.bg-container{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png');
+    background-size: auto;
+    height: 100vh;
+}
+
+.contact-name{
+    background-color:#323f4b;
+    text-align: start;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.message-sent{
+    background-color: #47a3f3;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: end;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.message-recevied{
+    background-color: #52606d;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: start;
+    padding: 10px;
+    border-radius: 8px;   
+}

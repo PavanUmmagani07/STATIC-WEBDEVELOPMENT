@@ -1,0 +1,29 @@
+.bg-container{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/codingbg.png');
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card{
+    background-color: #00000080;
+    border-color: #48ee59;
+    border-width: 12px;
+    border-style: solid;
+    padding: 45px;
+    
+
+
+}
+
+.titile{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+}

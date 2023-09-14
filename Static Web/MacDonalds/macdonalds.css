@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.banner-container{
+    background-color: #e4ede6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banner-dis{
+    height: 150px;
+    width: 550px;
+    padding: 20px;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.banner-title{
+    color: #fcc305;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.banner-image{
+    padding: 15px;
+    height: 300px;
+    width: 550px;
+}
+
+.item-container{
+    background-color: #ffffff;
+    background-size: cover;
+    padding: 20px;
+    margin: 25px;
+}
+
+.popular-items{
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.items-display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item-img{
+    height: 155px;
+    width: 255px;
+}
+
+.button{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: orange;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+}
