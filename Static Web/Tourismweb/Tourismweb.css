@@ -1,0 +1,183 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.main-container{
+    background-image: url('images/ocean.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.card{
+    background-color: #ffffff;
+    height: 26%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.home-heading{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 8px;
+}
+
+.paragraph{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 8px;
+}
+
+.button{
+    color: #ffffff;
+    background-color: aqua;
+    border-color: aqua;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 500;
+
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: aqua;
+}
+
+/*Favourite places section*/
+.bg-container{
+    background-image: url('images/towerbg.png');
+    background-size: cover;
+}
+
+
+.heading{
+    color: #ffffff;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.favourite-place{
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.place-dis{
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+
+.place-img{
+    float: right;
+    width: 50%;
+}
+
+.img{
+    float: right;
+    height: 150px;
+    padding: 10px;
+}
+
+.title{
+    font-family: Cambria;
+    padding-top: 10px;
+}
+
+.paragraph{
+    font-family: Georgia;
+    padding-top: 10px;
+}
+
+.knowMore{
+    margin-top: 10px;
+    background-color: aqua;
+    font-family: Arial;
+    font-weight:700;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: aqua;
+    color: #ffffff;
+}
+
+.knowMore:hover{
+    background-color: #ffffff;
+    color: aqua;
+}
+
+.goBack{
+    margin: 10px;
+    background-color: #6feea8;
+    font-family: Arial;
+    font-weight:700;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #bcf3f7;
+    color: #ffffff;  
+}
+
+.goBack:hover{
+    background-color: #ffffff;
+    color: #6feea8;   
+}
+
+/*Favourite place Detailed Section*/
+.detailed-section-container{
+    background-image: url(images/seabg.png);
+    background-size: cover;
+
+}
+
+.place-container{
+    padding: 10px;
+}
+
+.detailed-card-container{
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.detailed-dis{
+    padding: 15px;
+}
+.img1{
+    float: left;
+    width: 25%;
+}
+
+.img2{
+    float: left;
+    width: 25%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
+.img3{
+    float: right;
+    width: 25%;
+}
+
+.more-img{
+    height: 125px;
+}
+
+.btn-container{
+    text-align: center;
+    padding-top: 10px;
+}

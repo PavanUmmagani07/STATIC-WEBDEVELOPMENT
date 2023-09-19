@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.homesection{
+    background-image: url('images/flats-list-bg.png');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.home-section-card{
+    background-color: #ffffff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    text-align: center;
+    height: 20%;
+}
+
+.title{
+    color: #f5ae29;
+    padding: 12px;
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.paragraph{
+    color: #7b8794;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+
+.button{
+    color: #ffffff;
+    background-color: #f5ae29;
+    padding: 12px;
+    border-color: #f5ae29;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+/*Flats-Section*/
+.flats-section{
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.flat-img{
+    float: left;
+}
+
+.flat-discription{
+    float: right;
+}
+
+.flat-image{
+    height: 145px;
+    width: 90px;
+}

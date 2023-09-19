@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Web</title>
+    <link rel="stylesheet" href="Tourismweb.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d06933270a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!--Section Home-->
+  <div id="sectionHome">
+    <div class="main-container">
+      <div class="card">
+          <h1 class="home-heading">Tourism</h1>
+          <p class="paragraph">Plan a trip wherever you want</p>
+          <button class="button" onclick="display('sectionFavouritePlace')">Get Started</button>
+      </div>
+  </div>
+</div>
+
+  <!--Section Favourite Place-->
+  <div id="sectionFavouritePlace">
+    <div class="bg-container">
+      <div class="container">
+          <h1 class="heading">Favourite Places</h1>
+          <!--Taj Mahal-->
+          <div class="favourite-place">
+              <div class="place-dis">
+                  <h2 class="title">Taj Mahal</h2>
+                  <p class="paragraph">Welcome to Taj Mahal, Standing majestically on the banks of River Yamuna.Taj Mahal is famous for Own beauty and one of the wonders of the world.If there was a one symbol to represent all of india, it would be the Taj Mahal</p>
+                  <button class="knowMore" onclick="display('sectionTajmahal')">Know More</button>
+              </div>
+              <div class="place-img">
+                  <img src="images/tajmahal-img.png" class="img"/>
+              </div>
+              <div class="clear"></div>
+          </div>
+          <!--Mysore palace-->
+          <div class="favourite-place">
+              <div class="place-dis">
+                  <h2 class="title">Mysore Palace</h2>
+                  <p class="paragraph">Undoubtedly the most popular tourist attraction of Mysore, Mysore Maharaja Palace is located in the heart of Mysore city. Known for its renowned Mysore Dussehra Festival, it is one of the largest palaces in India.</p>
+                  <button class="knowMore" onclick="display('sectionMysorePalace')">Know More</button>
+              </div>
+              <div class="place-img">
+                  <img src="images/mysore-palace-img.png" class="img"/>
+              </div>
+              <div class="clear"></div>
+          </div>
+          <!--Golden Temple-->
+          <div class="favourite-place">
+              <div class="place-dis">
+                  <h2 class="title">Golden Temple</h2>
+                  <p class="paragraph">The Golden Temple is an open house of worship for all people, from all walks of life and faiths.It has a square plan with four entrances, and a circumambulation path around the pool. The four entrances to the gurudwara symbolises the Sikh belief in equality and the Sikh view that all people are welcome into their holy place.</p>
+                  <button class="knowMore" onclick="display('sectionGoldenTemple')">Know More</button>
+              </div>
+              <div class="place-img">
+                  <img src="images/golden-temple-img.png" class="img"/>
+              </div>
+              <div class="clear"></div>
+          </div>
+          <!--Varanasi Temple-->
+          <div class="favourite-place">
+              <div class="place-dis">
+                  <h2 class="title">Varanasi</h2>
+                  <p class="paragraph">Varanasi also Banaras or Benares, is a city on the Ganges river in northern India that has a central place in the traditions of pilgrimage, death, and mourning in the Hindu world.The city has a syncretic tradition of Muslim artisanship that underpins its religious tourism</p>
+                  <button class="knowMore" onclick="display('sectionVaranasiTemple')">Know More</button>
+              </div>
+              <div class="place-img">
+                  <img src="images/varanasi-temple-img.png" class="img"/>
+              </div>
+              <div class="clear"></div>
+          </div>
+          <button class="goBack" onclick="display('sectionHome')">Go Back</button>
+      </div>
+  </div>
+  </div>
+
+  <!--Tajmahal Section-->
+  <div id="sectionTajmahal">
+    <div class="detailed-section-container">
+      <div class="container">
+          <div class="place-container">
+          <h1 class="heading">Detailed Section</h1>
+          <!--Detailed view card container consists carousel and detailed discription-->
+          <div class="detailed-card-container">
+              <!--Corousel container-->
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/tajmahal-c1-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/tajmahal-c2-img.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/tajmahal-c3-img.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              <!--Detailed discription-->
+              <div class="detailed-dis">
+                  <div class="container">
+                      <h1 class="title">Taj Mahal</h1>
+                      <p class="paragraph">The Taj Mahal, a UNESCO World Heritage Site located in Agra, India, is a timeless masterpiece of Mughal architecture. 
+                          Built in the 17th century by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, it stands as a symbol of eternal love. Its stunning white marble facade, intricate minarets, 
+                          and exquisite inlay work make it one of the most iconic landmarks globally and a testament to the skill and artistry of the artisans who created it. 
+                          The Taj Mahal's beauty is further enhanced by the serene reflection pools and lush gardens surrounding it, making it a must-visit destination for travelers from all over the world.</p>
+                      <h3 class="title">More Pictures</h3>
+                      <img src="images/tajmahal1.png" class="img1 more-img">
+                      <img src="images/tajmahal2.png" class="img2 more-img">
+                      <img src="images/tajmahal3.png" class="img3 more-img">
+                      <div class="btn-container">
+                          <button class="knowMore">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                          <button class="goBack" onclick="display('sectionFavouritePlace')">Go Back</button>
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+  <!--Mysore Palace Section-->
+  <div id="sectionMysorePalace">
+    <div class="detailed-section-container">
+      <div class="container">
+          <div class="place-container">
+          <h1 class="heading">Detailed Section</h1>
+          <!--Detailed view card container consists carousel and detailed discription-->
+          <div class="detailed-card-container">
+              <!--Corousel container-->
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/MysorePalace-C1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/MysorePalace-C2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/Mysore_Palace-C3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              <!--Detailed discription-->
+              <div class="detailed-dis">
+                  <div class="container">
+                      <h1 class="title">Mysore Palace</h1>
+                      <p class="paragraph">Mysore Palace, situated in the heart of Mysore city in Karnataka, India, is a splendid architectural marvel. 
+                        Built in the Indo-Saracenic style in the late 19th century, it is a magnificent blend of Hindu, Muslim, Rajput, and Gothic architectural influences. 
+                        The palace boasts a stunning facade adorned with intricate carvings, domes, and ornate arches, all illuminated by thousands of dazzling lights during special occasions. 
+                        Inside, it houses a remarkable collection of art, artifacts, and royal memorabilia. The palace is not only a historical gem but also a vibrant cultural hub, hosting the grand 
+                        Dasara festival, attracting visitors from far and wide to witness its grandeur.</p>
+                      <h3 class="title">More Pictures</h3>
+                      <img src="images/MysorePalace1.jpg" class="img1 more-img">
+                      <img src="images/MysorePalace2.jpg" class="img2 more-img">
+                      <img src="images/MysorePalace3.jpg" class="img3 more-img">
+                      <div class="btn-container">
+                          <button class="knowMore">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                          <button class="goBack" onclick="display('sectionFavouritePlace')">Go Back</button>
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+  <!--Golden Temple Section-->
+  <div id="sectionGoldenTemple">
+    <div class="detailed-section-container">
+      <div class="container">
+          <div class="place-container">
+          <h1 class="heading">Detailed Section</h1>
+          <!--Detailed view card container consists carousel and detailed discription-->
+          <div class="detailed-card-container">
+              <!--Corousel container-->
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/Golden-Temple-C1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/Golden-Temple-C2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/Golden-Temple-C3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              <!--Detailed discription-->
+              <div class="detailed-dis">
+                  <div class="container">
+                      <h1 class="title">Golden Temple</h1>
+                      <p class="paragraph">
+                        The Golden Temple, also known as Sri Harmandir Sahib, is a revered religious and cultural icon located in Amritsar, Punjab, India.
+                        This Sikh gurdwara is renowned for its stunning architecture and the glistening golden coating that covers its dome and walls, reflecting beautifully 
+                        in the surrounding Amrit Sarovar (Pool of Nectar). It was built as a place of worship and spiritual reflection for Sikhs in the 16th century and stands as a symbol of equality, 
+                        humility, and inclusivity. Visitors are welcome to partake in the langar, a community kitchen offering free meals to all, emphasizing the core Sikh values of selfless service and unity. 
+                        The Golden Temple remains a place of spiritual solace and cultural significance for millions of people worldwide.</p>
+                      <h3 class="title">More Pictures</h3>
+                      <img src="images/Golden-Temple1.jpg" class="img1 more-img">
+                      <img src="images/Golden-Temple2.jpg" class="img2 more-img">
+                      <img src="images/Golden-Temple3.jpg" class="img3 more-img">
+                      <div class="btn-container">
+                          <button class="knowMore">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                          <button class="goBack" onclick="display('sectionFavouritePlace')">Go Back</button>
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+  <!--Varnasi Temple-->
+  <div id="sectionVaranasiTemple">
+    <div class="detailed-section-container">
+      <div class="container">
+          <div class="place-container">
+          <h1 class="heading">Detailed Section</h1>
+          <!--Detailed view card container consists carousel and detailed discription-->
+          <div class="detailed-card-container">
+              <!--Corousel container-->
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/Varnasi-C1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/Varnasi-C2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/Varnasi-C3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              <!--Detailed discription-->
+              <div class="detailed-dis">
+                  <div class="container">
+                      <h1 class="title">Varanasi Temple</h1>
+                      <p class="paragraph">Varanasi, also known as Kashi, is one of the world's oldest and holiest cities, nestled along the banks of the sacred Ganges River in northern India.
+                        Its rich tapestry weaves together spirituality, history, and culture, making it a revered destination for pilgrims and travelers alike. Varanasi's labyrinthine streets are adorned with ancient temples, vibrant markets, and revered ghats, where devotees gather for rituals and ablutions.
+                        The city's mesmerizing Ganga Aarti ceremonies, conducted at the ghats during twilight, offer a captivating glimpse into India's spiritual heart.</p>
+                      <h3 class="title">More Pictures</h3>
+                      <img src="images/Varnasi1.jpg" class="img1 more-img">
+                      <img src="images/Varnasi2.jpg" class="img2 more-img">
+                      <img src="images/Varnasi3.jpg" class="img3 more-img">
+                      <div class="btn-container">
+                          <button class="knowMore">Like <i class="fa-regular fa-thumbs-up"></i></button>
+                          <button class="goBack" onclick="display('sectionFavouritePlace')">Go Back</button>
+                      </div>
+                  </div>
+                  <div class="clear"></div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+    <!--CCBP UI KIT-->
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>

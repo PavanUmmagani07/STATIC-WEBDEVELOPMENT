@@ -1,23 +1,49 @@
 *{
     margin: 0px ;
+    padding: 0px;
 }
-.card{
-    background-image: url("https://img.freepik.com/free-photo/full-shot-woman-taking-selfie_23-2149153257.jpg?1&w=900&t=st=1694236567~exp=1694237167~hmac=ee8a603fef286515ab7c1114d22c9904b895690186b1adc2871cb7a7afe50431");
+
+.main-container{
+    background-image: url('images/ocean.jpg');
     height: 100vh;
-    width: 100vw;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
-.card-container{
-    background-color: transparent;
-    width: 22vw;
-    margin-left: 15px;
-    margin-top: 15px;
+
+.card{
+    background-color: #ffffff;
+    height: 20%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.heading{
+    color: aqua;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 8px;
 }
 
 .paragraph{
-    color:goldenrod;
-    font-size: 32px;
-    font-style: italic;
-    font-weight: bold;
-    
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 8px;
+}
+
+.button{
+    color: #ffffff;
+    background-color: aqua;
+    border-color: aqua;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 500;
+
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: aqua;
 }

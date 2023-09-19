@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+.bg-container{
+    background-image: url('images/towerbg.png');
+    background-size: cover;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.heading{
+    color: #ffffff;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.favourite-place{
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.place-dis{
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+
+.place-img{
+    float: right;
+    width: 50%;
+}
+
+.img{
+    float: right;
+    height: 150px;
+    padding: 10px;
+}
+
+.title{
+    font-family: Cambria;
+    padding-top: 10px;
+}
+
+.paragraph{
+    font-family: Georgia;
+    padding-top: 10px;
+}
+
+.knowMore{
+    margin-top: 10px;
+    background-color: aqua;
+    font-family: Arial;
+    font-weight:700;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: aqua;
+    color: #ffffff;
+}
+
+.knowMore:hover{
+    background-color: #ffffff;
+    color: aqua;
+}
+
+.goBack{
+    margin: 10px;
+    background-color: #6feea8;
+    font-family: Arial;
+    font-weight:700;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: #bcf3f7;
+    color: #ffffff;  
+}
+
+.goBack:hover{
+    background-color: #ffffff;
+    color: #6feea8;   
+}
