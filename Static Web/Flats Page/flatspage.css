@@ -3,7 +3,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 .homesection{
     background-image: url('images/flats-list-bg.png');
     height: 100vh;
@@ -48,8 +47,7 @@
 
 /*Flats-Section*/
 .flats-section{
-    background-color: #ffffff;
-    border-radius: 8px;
+    background-image: url('images/flats-list-bg.png');
 }
 
 .container{
@@ -57,15 +55,23 @@
     margin: 0px auto;
 }
 
-.flat-img{
-    float: left;
+.flat-card{
+    background-color: #ffffff;
+    border-radius: 8px;
 }
 
 .flat-discription{
-    float: right;
+    float: left;
 }
 
 .flat-image{
+    float: left;
+    margin-right: 15%;
     height: 145px;
     width: 90px;
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
 }
