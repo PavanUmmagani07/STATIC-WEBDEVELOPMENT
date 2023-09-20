@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="flatspage.css">
     <title>Flats Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!--Home Section-->
@@ -13,7 +18,7 @@
             <div class="home-section-card">
                 <h2 class="title">Sunrise Avenue</h2>
                 <p class="paragraph">Move to what moves you.</p>
-                <button class="button" onclick="display('SectionFlats')">Book Flat</button>
+                <button class="button" onclick="display('sectionFlats')">Book Flat</button>
             </div>
         </div>
     </div>
@@ -26,16 +31,154 @@
                 <div class="flat-card">
                     <!--Flat Image-->
                     <div class="flat-img">
-                        <img src="images/flats-list-card1-img.png" class="flat-image">
+                        <img src="images/flats-list-card1-img.png" class="flat-image" onclick="display('section2BHKDetailedView')">
                     </div>
                     <div class="flat discription">
                         <h3 class="flat-title">2BHK Flat</h3>
-                        <p class="paragraph">A minimalist house made for modren day families.It is fully firnished with trending Furniture. Its build-up area is about 1200Sq.ft.</p>
+                        <p class="paragraph">
+                            A 2BHK flat, short for a two-bedroom, hall, and kitchen apartment, is a popular residential choice. 
+                            These spaces offer a balanced blend of affordability and functionality for many families and individuals. 
+                            The two bedrooms provide privacy and versatility, accommodating a small family comfortably. The hall or 
+                            living area serves as a common gathering space, perfect for relaxation and entertainment. The kitchen is typically 
+                            compact yet efficient, allowing for basic meal preparation. 2BHK flats are ideal for urban settings, where space is at a premium. 
+                            They provide a cozy and manageable living environment while catering to the needs of modern lifestyles.A minimalist house made for modren day 
+                            families.It is fully firnished with trending Furniture. Its build-up area is about 1200Sq.ft.</p>
                     </div>
                     <div class="clear"></div>
+                </div>
+
+                <!--3BHK Flat-->
+                <div class="flat-card">
+                    <!--Flat Image-->
+                    <div class="flat-img">
+                        <img src="images/flats-list-card2-img.png" class="flat-image" onclick="display('section3BHKDetailedView')">
+                    </div>
+                    <div class="flat discription">
+                        <h3 class="flat-title">3BHK Flat</h3>
+                        <p class="paragraph">A 3BHK flat, or a three-bedroom, hall, and kitchen apartment, represents a more spacious and versatile residential option. 
+                            These homes are well-suited for larger families or those who value extra space. The three bedrooms offer individual privacy and can serve various purposes, 
+                            from bedrooms to home offices or guest rooms. The hall or living area is often roomy, allowing for comfortable gatherings and diverse furniture arrangements. 
+                            The kitchen typically offers more workspace and storage, making meal preparation easier. 3BHK flats are favored for their adaptability and ability to accommodate 
+                            evolving needs, making them an attractive choice for those seeking a comfortable and functional living space.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <!--4BHK Flat-->
+                <div class="flat-card">
+                    <!--Flat Image-->
+                    <div class="flat-img">
+                        <img src="images/flats-list-card3-img.png" class="flat-image" onclick="display('section4BHKDetailedView')">
+                    </div>
+                    <div class="flat discription">
+                        <h3 class="flat-title">4BHK Flat</h3>
+                        <p class="paragraph">
+                            A 4BHK flat, or a four-bedroom, hall, and kitchen apartment, epitomizes spacious and luxurious living. 
+                            These homes are designed for larger families or those who desire ample space for various purposes. The four bedrooms 
+                            provide flexibility, accommodating family members, guests, or even creating dedicated spaces like a home gym or study. 
+                            The hall or living area is expansive, ideal for hosting gatherings and creating diverse seating arrangements. The kitchen 
+                            is typically well-equipped, offering more storage and modern amenities. 4BHK flats signify a premium lifestyle, emphasizing comfort and 
+                            customization, making them popular among those who seek opulence and a comfortable living environment with plenty of room for personalization.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <button class="button" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Flats Detailed Section-->
+    <!--2BHK Detailed Section-->
+    <div id="section2BHKDetailedView">
+        <div class="flats-detailed-container">
+            <div class="flat-page-img">
+                <img src="images/flats-list-d1-img.png" class="flat-view">
+            </div>
+            <div class="flat-detailed-dis">
+                <div class="container">
+                    <h3 class="title">RS 3000/-</h3>
+                    <div class="address-container">
+                        <img src="images/flats-list-location-icon-img.png" class="location-icon">
+                        <p class="address paragraph">D/N 5-2, Food Street, Indore</p>
+                    </div>
+                    <div class="clear"></div>
+                    <p class="paragraph">
+                        A 2BHK flat, short for a two-bedroom, hall, and kitchen apartment, is a popular residential choice. 
+                        These spaces offer a balanced blend of affordability and functionality for many families and individuals. 
+                        The two bedrooms provide privacy and versatility, accommodating a small family comfortably. The hall or 
+                        living area serves as a common gathering space, perfect for relaxation and entertainment. The kitchen is typically 
+                        compact yet efficient, allowing for basic meal preparation. 2BHK flats are ideal for urban settings, where space is at a premium. 
+                        They provide a cozy and manageable living environment while catering to the needs of modern lifestyles.A minimalist house made for modren day 
+                        families.It is fully firnished with trending Furniture. Its build-up area is about 1200Sq.ft.
+                    </p>
+                    <div class="btn-container">
+                        <button class="button" onclick="display('sectionHome')">Confrim</button>
+                        <button class="button" onclick="display('sectionFlats')">Back</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--3BHK Detailed Section-->
+    <div id="section3BHKDetailedView">
+        <div class="flats-detailed-container">
+            <div class="flat-page-img">
+                <img src="images/flats-list-d1-img.png" class="flat-view">
+            </div>
+            <div class="flat-detailed-dis">
+                <div class="container">
+                    <h3 class="title">RS 3000/-</h3>
+                    <div class="address-container">
+                        <img src="images/flats-list-location-icon-img.png" class="location-icon">
+                        <p class="address paragraph">D/N 5-2, Food Street, Indore</p>
+                    </div>
+                    <div class="clear"></div>
+                    <p class="paragraph">
+                            A 3BHK flat, or a three-bedroom, hall, and kitchen apartment, represents a more spacious and versatile residential option. 
+                            These homes are well-suited for larger families or those who value extra space. The three bedrooms offer individual privacy and can serve various purposes, 
+                            from bedrooms to home offices or guest rooms. The hall or living area is often roomy, allowing for comfortable gatherings and diverse furniture arrangements. 
+                            The kitchen typically offers more workspace and storage, making meal preparation easier. 3BHK flats are favored for their adaptability and ability to accommodate 
+                            evolving needs, making them an attractive choice for those seeking a comfortable and functional living space.
+                    </p>
+                    <div class="btn-container">
+                        <button class="button" onclick="display('sectionHome')">Confrim</button>
+                        <button class="button" onclick="display('sectionFlats')">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--4BHK Detailed Section-->
+    <div id="section4BHKDetailedView">
+        <div class="flats-detailed-container">
+            <div class="flat-page-img">
+                <img src="images/flats-list-d3-img.png" class="flat-view">
+            </div>
+            <div class="flat-detailed-dis">
+                <div class="container">
+                    <h3 class="title">RS 7000/-</h3>
+                    <div class="address-container">
+                        <img src="images/flats-list-location-icon-img.png" class="location-icon">
+                        <p class="address paragraph">D/N 7-2, Food Street, Indore</p>
+                    </div>
+                    <div class="clear"></div>
+                    <p class="paragraph">
+                        A 4BHK flat, or a four-bedroom, hall, and kitchen apartment, epitomizes spacious and luxurious living. 
+                        These homes are designed for larger families or those who desire ample space for various purposes. The four bedrooms 
+                        provide flexibility, accommodating family members, guests, or even creating dedicated spaces like a home gym or study. 
+                        The hall or living area is expansive, ideal for hosting gatherings and creating diverse seating arrangements. The kitchen 
+                        is typically well-equipped, offering more storage and modern amenities. 4BHK flats signify a premium lifestyle, emphasizing comfort and 
+                        customization, making them popular among those who seek opulence and a comfortable living environment with plenty of room for personalization.
+                    </p>
+                    <div class="btn-container">
+                        <button class="button" onclick="display('sectionHome')">Confrim</button>
+                        <button class="button" onclick="display('sectionFlats')">Back</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CCBP UI KIT-->
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
 </body>
 </html>
