@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: 0px auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar-title{
+    float: left;
+    padding: 15px;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar .nav-items ul{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.navbar .navbar-items li{
+    float: right;
+    display: inline;
+    line-height: 50px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.navbar .navbar-items li:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar-image{
+    text-align: center;
+}
+
+.image{
+    width: 30%;
+}
+
+.categories-left-container{
+    float: left;
+}
+
+.categories-right-container{
+    float: right;
+}
